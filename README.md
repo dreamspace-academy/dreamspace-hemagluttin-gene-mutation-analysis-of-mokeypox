@@ -1,1 +1,1 @@
-# dreamspace-hemagluttin-gene-mutation-analysis-of-mokeypox
+# dreamspace-hemagluttin-gene-mutation-analysis-of-monkeypox
