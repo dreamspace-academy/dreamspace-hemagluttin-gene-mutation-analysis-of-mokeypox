@@ -36,10 +36,10 @@ nextstrain.org website was referred to identify recently published genomes of di
 
 In this project, 3 python functions were written to obtain an aligned gene sequence of hemmaglutin gene from each genome, to find nucleotide mutations among comparing DNA sequences, and to find amino acid mutations among comparing amino acid sequences. Biopython package was used to import genomes to the pipeline and converted to 'Seq' objects at the beginning of the analysis. The jupyter notebook was uploaded to GitHub.
 
-![](RackMultipart20221123-1-2c6wfu_html_202f6dfb066ed66a.png)
+![mpxv-clades-nextstrain (2)](https://user-images.githubusercontent.com/54774527/203489963-e234a9a2-b0be-427c-9793-af635d114332.jpg)
+
 
 **Figure 1.** Lineages of monkeypox virus.
-
 
 
 **Nucleotide sequence alignment**
