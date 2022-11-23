@@ -10,7 +10,7 @@ The current (2022) Monkeypox virus outbreak was declared a Public Health Emergen
 
 Keywords: Monkeypox, Hemmaglutin, Glycoprotein, Comparative genomics
 
-**INTRODUCTION**
+## INTRODUCTION
 
 Monkeypox virus causes smallpox-like disease but symptoms are mild compared to smallpox. It is a viral zootonic disease endemic to Africa. Monkeypox virus has a 5-21 day incubation period and the disease lasts for 2 to 4 weeks followed by spontaneous recovery (Ala'A. B et al. (2022)). Monkeypox virus mainly has two strains central African and west African. The virus belongs to the family Poxviridae, genus Orthopoxvirus. Known pathogens like Monkeypox virus, vaccinia virus, cowpox virus and variola virus all belong to the genus Orthopoxvirus (Kugelman et al. (2014)).
 
@@ -26,13 +26,13 @@ To run the analysis below mentioned software/packages was installed.
 
 MAFFT v7.245 , Python 3.9, Entrez direct 13.9, Conda 4.13.0, Biopython 1.79
 
-**METHODOLOGY**
+## METHODOLOGY
 
-**Data retrieval**
+### Data retrieval
 
 nextstrain.org website was referred to identify recently published genomes of different lineages. Once accession numbers were obtained data was retrieved through NCBI Entrez Direct (EDirect) through the Unix command terminal.
 
-**Write python and Shell script for analysis**
+### Write python and Shell script for analysis
 
 In this project, 3 python functions were written to obtain an aligned gene sequence of hemmaglutin gene from each genome, to find nucleotide mutations among comparing DNA sequences, and to find amino acid mutations among comparing amino acid sequences. Biopython package was used to import genomes to the pipeline and converted to 'Seq' objects at the beginning of the analysis. The jupyter notebook was uploaded to GitHub.
 
@@ -42,23 +42,23 @@ In this project, 3 python functions were written to obtain an aligned gene seque
 **Figure 1.** Lineages of monkeypox virus.
 
 
-**Nucleotide sequence alignment**
+### Nucleotide sequence alignment
 
 MAFFT was used to align the genomes to the reference genome of monkeypox virus.
 
-**Find mutations in DNA sequnces**
+### Find mutations in DNA sequnces
 
 Aligned nucleotide sequences were compared to find mutations. DNA sequences were passed as arguments for the previously written function 'get mutations'.
 
-**Amino acid sequence alignment**
+### Amino acid sequence alignment
 
 Sequences which has nucleotide differences were translated to amino acid sequences and again aligned against reference genome hemmaglutin protein amino acid sequences.
 
-**Find mutations in amino acid sequnces**
+### Find mutations in amino acid sequnces
 
 Aligned amino acid sequences were compared to find mutations. Amino acid sequences were passed as arguments for the previously written function 'get aa mutations'.
 
-**RESULTS**
+## RESULTS
 
 Retrieved gene sequences of hemmaglutin genes of the 2022 monkeypox outbreak were conserved. Hemmaglutin gene sequence of 6 isolates from the 2022 outbreak was compared with the sequence of the monkeypox reference genome, the HA gene (Table 01).
 
@@ -79,7 +79,7 @@ A Single nucleotide change was observed at 248 positions of OP185714.1 genome he
 
 **Table 1.** Nucelotide changes compared to reference genome.
 
-**DISCUSSION**
+## DISCUSSION
 
 Viruses undergo subtle genetic changes through mutations. However, it can be deleterious, neutral or sometimes favourable for the virus. RNA viruses have a high rate of mutation occurrence compared to DNA viruses. Further, viruses could have major genetic changes through recombination (Fleischmann Jr (1996)). In human pathogenic viruses, the APOBEC3 enzyme is also playing a role in inducing viral mutations. APOBEC enzymes are essential components of the human innate immune system and are able to inhibit a wide range of viruses. However, these enzymes can accidentally induce mutations in viruses that enhance viral fitness, host range and virulence (Sadeghpour et al. (2021)). Recent studies suggest, that APOBEC3 is acting in various hosts in low-level accumulating mutations in a series of infections contributing to an increased number of lineages (Gigante et al. (2022)).
 
@@ -93,7 +93,7 @@ Further, the development of a bioinformatics pipeline could be done and automati
 
 This project was done at DreamSpace Bio Lab, the first community bio lab in Sri Lanka and funded by DreamSpace Foundation.
 
-**REFERENCES**
+## REFERENCES
 
 Ala'A. B, A.-T., Albakri, R., and Alabsi, S. (2022). The outbreak of human monkeypox in 2022: A changing epidemiology or an impending aftereffect of smallpox eradication. _Front. Trop. Dis. 3:_ _951380. doi: 10.3389_.
 
