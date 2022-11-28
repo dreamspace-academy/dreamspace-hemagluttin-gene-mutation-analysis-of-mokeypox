@@ -1,6 +1,8 @@
 # Investigating hemmaglutin gene of Monkeypox virus for mutations in the recent outbreak - 2022
 
-**Cristian Silva** 
+## Authors
+-Cris Silva
+-Aravinth Panch
 
 **DreamSpace Academy Bio Lab, Batticaloa**
 
